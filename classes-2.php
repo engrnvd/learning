@@ -23,7 +23,12 @@ class Person {
         echo "My name is: {$this->name}<br>";
     }
 
+    public function printYourBirthYear() {
+       $currentYear = date("Y");
+       $final = $currentYear - $this->age;
+       echo "My age is {$final} years. <br>";
 
+    }
 }
 
 $hashir = new Person("Hashir Butt", 22, "Pindi");
@@ -40,3 +45,5 @@ echo "<pre>";
 
 $hashir->printYourName();
 $naveed->printYourName();
+$hashir->printYourBirthYear();
+$naveed->printYourBirthYear();
