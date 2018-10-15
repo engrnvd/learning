@@ -4,7 +4,7 @@ class Person {
     public $name;
     public $age;
     public $address;
-    public $fatherName;
+
 
     public function __construct($n, $age, $address)
     {
