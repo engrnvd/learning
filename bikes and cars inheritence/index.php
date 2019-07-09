@@ -1,9 +1,9 @@
 <?php
-    require_once "Honda.php";
-    require_once "yamaha.php";
+require_once "Honda.php";
+require_once "yamaha.php";
 
-$Honda = new Honda("Honda 125","Honda");
-$yamaha = new Yamaha("YBR","Yamaha","125cc","3");
+$Honda = new Honda("Honda 125", "Honda");
+$yamaha = new Yamaha("YBR", "Yamaha", "125cc", "3");
 
 echo "<pre>";
 print_r($Honda);
